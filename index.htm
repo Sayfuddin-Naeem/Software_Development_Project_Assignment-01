@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome-6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-first">
+  <div class="container">
+
+    <!-- Menu Bar Section -->
+    <div class="menubar-container d-flex justify-content-around">
+      <img src="icons/logo.png" alt="Logo" class="">
+      <div class="mt-lg-4 mt-md-4">
+        <nav class="navbar bg-transparent navbar-expand-lg">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-white text-hover active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white text-hover" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white text-hover" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white text-hover" href="#">Contact</a>
+                </li>
+              </ul>
+              <button class="btn accent-first accent-hover text-hover">
+                <span class="text-white text-hover">Resume</span> <i class="fas fa-download"></i>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- MySelf Intro Section -->
+    <div class="row my-intro-container my-3">
+      <div class="my-intro my-2 my-lg-0 my-md-0 col-12 col-md-9 col-lg-9 col-xl-9">
+        <h1 class="mb-3">HI ! <br>I'M SAYFUDDIN NAEEM</h1>
+        <p class="text-white mt-5">
+          <span class="v-line">Web Developer</span><span class="v-line">React Developer</span>Programmer
+        </p>
+        <p class="text-second text-justify w-50 mt-5">
+          I am Md. Sayfuddin Naeem. I am a Computer Science and Engineering Department student at the University of Barishal.
+          I love programming. I know basic C, C++, PHP, JavaScript, Data Structure and Algorithms. But I am a React and Django developer.
+        </p>
+        <div class="d-flex justify-content-evenly w-25 mt-5">
+          <a href="https://www.facebook.com/sayfuddin.naeem.100" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook text-accent-second fs-4"></i>
+          </a>
+          <a href="https://x.com/sayfuddinNaeem" target="_blank" aria-label="Twitter">
+            <i class="fab fa-x-twitter text-accent-second fs-4"></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram text-accent-second fs-4"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sayfuddin-naeem/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin text-accent-second fs-4"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <img src="images/sayfuddin.jpg" alt="Sayfuddin's Picture" class="col-12 my-sm-2 my-md-0 my-lg-0 col-md-3 col-lg-3 col-xl-3">
+
+    </div>
+
+    <!-- Portfolio Section -->
+    <div class="row w-75 mx-auto">
+      <h3 class="text-white col-12 text-center my-5">Protfolio</h3>
+      <div class="project-container col-12 row my-2 py-3 ps-0 border rounded border-2 brd-color-grey">
+        <div class="project-show my-1 col-12 col-md-5 col-lg-5 col-xl-5">
+          <div id="carouselAutoplaying1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="projects-img/project-1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="projects-img/project-2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="projects-img/project-3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark rounded-5" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying1" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark rounded-5" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="project-desc my-1 col-12 col-md-7 col-lg-7 col-xl-7">
+          <div class="project-header d-flex justify-content-between">
+            <h4 class="text-accent-first">Security Services</h4>
+          
+            <a href="https://github.com/Sayfuddin-Naeem/Module-2.5_Week-1_Practice-Day-01" target="_blank">
+              <svg width="21" height="25" viewBox="0 0 21 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="fill-first" d="M20.2578 16.2368L18.194 14.3135L18.2874 14.4068L10.3154 6.58016C10.1287 6.42461 9.92644 6.40905 9.70861 6.5335L6.98795 8.59683C6.80124 8.7835 6.78568 8.97016 6.94127 9.15683L10.1287 12.2068C10.3488 12.3624 10.5677 12.3624 10.7855 12.2068C11.0367 12.0491 11.2556 12.0491 11.4424 12.2068L15.38 16.0502C15.5689 16.2368 15.5689 16.4235 15.38 16.6102L10.9722 20.0802C10.7544 20.2357 10.5355 20.2357 10.3154 20.0802L3.19036 13.1435C3.00365 12.9857 2.78471 12.9857 2.53354 13.1435L0.423024 14.7368C0.205193 14.9235 0.174074 15.1268 0.329668 15.3468L10.1287 24.5335C10.1287 24.5335 10.2076 24.5646 10.3654 24.6268C10.521 24.6891 10.7077 24.6424 10.9256 24.4868L20.2112 16.8002C20.3979 16.6113 20.4134 16.4235 20.2578 16.2368ZM20.7246 10.3768L10.8789 0.720165C10.8167 0.657943 10.7233 0.611277 10.5988 0.580165C10.4743 0.549054 10.3021 0.611277 10.082 0.766832L0.423024 8.36016C0.205193 8.54905 0.174074 8.73683 0.329668 8.9235L2.34682 10.8935L10.3654 18.6268C10.5833 18.7824 10.8167 18.7824 11.0656 18.6268L13.4128 16.8002L13.7396 16.5168C13.9574 16.3302 13.973 16.1435 13.7863 15.9568L11.1156 13.3768C10.8956 13.2213 10.6766 13.2213 10.4588 13.3768C10.2076 13.5324 9.98868 13.5324 9.80196 13.3768L5.34755 9.0635C5.19196 8.87683 5.20752 8.69016 5.39423 8.5035L9.70861 5.12683C9.95756 4.97128 10.1765 4.98683 10.3654 5.1735L17.9139 12.6268C18.1006 12.7824 18.3185 12.7824 18.5674 12.6268L20.6779 10.9402C20.898 10.7513 20.9135 10.5635 20.7246 10.3768Z" fill="#00FFFF"/>
+              </svg>
+            </a>
+
+            <a href="https://sayfuddin-naeem.github.io/Module-2.5_Week-1_Practice-Day-01/" target="_blank">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="fill-first" d="M23.7976 8.0802L12.8309 0.766867C12.4554 0.517978 12.0798 0.517978 11.7042 0.766867L0.737578 8.0802C0.424245 8.26687 0.267578 8.54798 0.267578 8.92353V16.2369C0.267578 16.5813 0.424245 16.8624 0.737578 17.0802L11.7042 24.3935C12.0798 24.6424 12.4554 24.6424 12.8309 24.3935L23.7976 17.0802C24.1109 16.8624 24.2676 16.5813 24.2676 16.2369V8.92353C24.2676 8.54798 24.1109 8.26687 23.7976 8.0802ZM13.2976 3.53353L21.3609 8.92353L17.7509 11.3135L13.2976 8.3602V3.53353ZM11.2376 3.53353V8.3602L6.78424 11.3135L3.17424 8.92353L11.2376 3.53353ZM2.33091 10.8469L4.90758 12.5802L2.33091 14.3135V10.8469ZM11.2376 21.6269L3.17424 16.2369L6.78424 13.8469L11.2376 16.8002V21.6269ZM12.2676 15.0169L8.61091 12.5802L12.2676 10.1435L15.9242 12.5802L12.2676 15.0169ZM13.2976 21.6269V16.8002L17.7509 13.8469L21.3609 16.2369L13.2976 21.6269ZM22.2042 14.3135L19.6276 12.5802L22.2042 10.8469V14.3135Z" fill="#00FFFF"/>
+              </svg>
+            </a>
+          </div>
+          <p class="text-second text-justify">
+            This is a SecureGuard Protection Services, it is provide comprehensive 
+            security solutions tailored to meet the diverse needs of clients. 
+            Its expertise spans web security, home security, CCTV surveillance, 
+            private security, network security, and transport security. 
+            In the digital age, protecting your online presence is as crucial 
+            as safeguarding your physical assets. 
+          </p>
+
+          <div class="technologies  d-flex justify-content-evenly flex-wrap">
+            <button class="mt-2 btn btn-sm border-2 brd-color-first text-white text-hover" type="button">HTML</button>
+            <button class="mt-2 btn btn-sm border-2 brd-color-first text-white text-hover" type="button">CSS</button>
+            <button class="mt-2 btn btn-sm border-2 brd-color-first text-white text-hover" type="button">BOOTSTRAP</button>
+            <button class="mt-2 btn btn-sm border-2 brd-color-first text-white text-hover" type="button">FONT-AWESOME</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="project-container row my-2 py-3 ps-0 border rounded border-2 brd-color-grey">
+        <div class="project-show my-1 col-12 col-md-5 col-lg-5 col-xl-5">
+          <div id="carouselAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="projects-img/project-4.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="projects-img/project-5.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="projects-img/project-6.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="projects-img/project-7.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark rounded-5" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark rounded-5" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="project-desc my-1 col-12 col-md-7 col-lg-7 col-xl-7">
+          <div class="project-header d-flex justify-content-between">
+            <h4 class="text-accent-first">Hockey Club</h4>
+          
+            <a href="https://github.com/Sayfuddin-Naeem/Module-3.5_Week-1_Practice-Day-02" target="_blank">
+              <svg width="21" height="25" viewBox="0 0 21 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="fill-first" d="M20.2578 16.2368L18.194 14.3135L18.2874 14.4068L10.3154 6.58016C10.1287 6.42461 9.92644 6.40905 9.70861 6.5335L6.98795 8.59683C6.80124 8.7835 6.78568 8.97016 6.94127 9.15683L10.1287 12.2068C10.3488 12.3624 10.5677 12.3624 10.7855 12.2068C11.0367 12.0491 11.2556 12.0491 11.4424 12.2068L15.38 16.0502C15.5689 16.2368 15.5689 16.4235 15.38 16.6102L10.9722 20.0802C10.7544 20.2357 10.5355 20.2357 10.3154 20.0802L3.19036 13.1435C3.00365 12.9857 2.78471 12.9857 2.53354 13.1435L0.423024 14.7368C0.205193 14.9235 0.174074 15.1268 0.329668 15.3468L10.1287 24.5335C10.1287 24.5335 10.2076 24.5646 10.3654 24.6268C10.521 24.6891 10.7077 24.6424 10.9256 24.4868L20.2112 16.8002C20.3979 16.6113 20.4134 16.4235 20.2578 16.2368ZM20.7246 10.3768L10.8789 0.720165C10.8167 0.657943 10.7233 0.611277 10.5988 0.580165C10.4743 0.549054 10.3021 0.611277 10.082 0.766832L0.423024 8.36016C0.205193 8.54905 0.174074 8.73683 0.329668 8.9235L2.34682 10.8935L10.3654 18.6268C10.5833 18.7824 10.8167 18.7824 11.0656 18.6268L13.4128 16.8002L13.7396 16.5168C13.9574 16.3302 13.973 16.1435 13.7863 15.9568L11.1156 13.3768C10.8956 13.2213 10.6766 13.2213 10.4588 13.3768C10.2076 13.5324 9.98868 13.5324 9.80196 13.3768L5.34755 9.0635C5.19196 8.87683 5.20752 8.69016 5.39423 8.5035L9.70861 5.12683C9.95756 4.97128 10.1765 4.98683 10.3654 5.1735L17.9139 12.6268C18.1006 12.7824 18.3185 12.7824 18.5674 12.6268L20.6779 10.9402C20.898 10.7513 20.9135 10.5635 20.7246 10.3768Z" fill="#00FFFF"/>
+              </svg>
+            </a>
+
+            <a href="https://sayfuddin-naeem.github.io/Module-3.5_Week-1_Practice-Day-02/" target="_blank">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="fill-first" d="M23.7976 8.0802L12.8309 0.766867C12.4554 0.517978 12.0798 0.517978 11.7042 0.766867L0.737578 8.0802C0.424245 8.26687 0.267578 8.54798 0.267578 8.92353V16.2369C0.267578 16.5813 0.424245 16.8624 0.737578 17.0802L11.7042 24.3935C12.0798 24.6424 12.4554 24.6424 12.8309 24.3935L23.7976 17.0802C24.1109 16.8624 24.2676 16.5813 24.2676 16.2369V8.92353C24.2676 8.54798 24.1109 8.26687 23.7976 8.0802ZM13.2976 3.53353L21.3609 8.92353L17.7509 11.3135L13.2976 8.3602V3.53353ZM11.2376 3.53353V8.3602L6.78424 11.3135L3.17424 8.92353L11.2376 3.53353ZM2.33091 10.8469L4.90758 12.5802L2.33091 14.3135V10.8469ZM11.2376 21.6269L3.17424 16.2369L6.78424 13.8469L11.2376 16.8002V21.6269ZM12.2676 15.0169L8.61091 12.5802L12.2676 10.1435L15.9242 12.5802L12.2676 15.0169ZM13.2976 21.6269V16.8002L17.7509 13.8469L21.3609 16.2369L13.2976 21.6269ZM22.2042 14.3135L19.6276 12.5802L22.2042 10.8469V14.3135Z" fill="#00FFFF"/>
+              </svg>
+            </a>
+          </div>
+          <p class="text-second text-justify">
+            This Hockey Club, the ultimate destination for hockey enthusiasts 
+            of all ages! Whether a beginner just lacing up his/her skates for 
+            the first time or an experienced player looking to sharpen his/her 
+            skills, this club offers a vibrant and inclusive environment where 
+            everyone can thrive. This club's programs cater to all age groups, from 
+            young kids discovering the joy of the game to adults seeking 
+            competitive play or a fun way to stay active. 
+          </p>
+
+          <div class="technologies d-flex justify-content-evenly flex-wrap">
+            <button class="mt-2 btn btn-sm border-2 brd-color-first text-white text-hover" type="button">HTML</button>
+            <button class="mt-2 btn btn-sm border-2 brd-color-first text-white text-hover" type="button">CSS</button>
+            <button class="mt-2 btn btn-sm border-2 brd-color-first text-white text-hover" type="button">BOOTSTRAP</button>
+            <button class="mt-2 btn btn-sm border-2 brd-color-first text-white text-hover" type="button">FONT-AWESOME</button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Skills and Education Section -->
+    <div class="skils-education row mx-auto my-5">
+      <div class="skills-container col-12 col-md-8 col-lg-8 col-xl-8">
+
+        <div class="skills-item">
+          <h4 class="text-white">Expertise:</h4>
+          <div class="skills d-flex flex-wrap ms-5 my-4">
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">HTML</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">CSS</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">JAVASCRIPT</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">BOOTSTRAP</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">MySQL</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">FireBase</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">PHP</button>
+          </div>
+        </div>
+
+        <div class="skills-item">
+          <h4 class="text-white">Comfortable:</h4>
+          <div class="skills d-flex flex-wrap ms-5 my-4">
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">SQL</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">Shell Script</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">Socket</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">Docker</button>
+          </div>
+        </div>
+
+        <div class="skills-item">
+          <h4 class="text-white">Familiar:</h4>
+          <div class="skills d-flex flex-wrap ms-5 my-4">
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">C</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">C++</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">PHP</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">Python</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">Spring Boot</button>
+          </div>
+        </div>
+
+        <div class="skills-item">
+          <h4 class="text-white">Tools:</h4>
+          <div class="skills d-flex flex-wrap ms-5 my-4">
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">VS Code</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">Sublime Text</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">Git</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">GitHub</button>
+            <button type="button" class="mt-2 me-2 btn btn-sm border-2 brd-color-first text-white text-hover">Postman</button>
+          </div>
+        </div>
+
+      </div>
+      <div class="education-container d-flex flex-column justify-content-center align-items-center col-12 col-md-4 col-lg-4 col-xl-4">
+        <h2 class="text-accent-second my-3">My Education</h2>
+        <p class="text-second mt-3 text-center">
+          B.Sc. in Computer Science and Engineering. <br>
+          University of Barishal (Barishal, Bangladesh) <br>
+          <span class="text-center">2017-2024</span>
+        </p>
+      </div>
+    </div>
+    
+    <!-- Contact Section -->
+    <div class="row mx-auto">
+      <div class="col-12 col-md-3 col-lg-3 col-xl-3"></div>
+      <div class="col-12 col-md-6 col-lg-6 col-xl-6 text-center border rounded border-2 brd-color-grey p-5">
+        <h3 class="text-white">Contact With Me</h3>
+
+      <div class="container mt-5">
+        <form>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control text-white bg-transparent border-2 brd-color-first" id="floatingName" placeholder="John Doe">
+            <label for="floatingName" class="text-white">Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control text-white bg-transparent border-2 brd-color-first" id="floatingEmail" placeholder="name@example.com">
+            <label for="floatingEmail" class="text-white">Email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control text-white bg-transparent border-2 brd-color-first" placeholder="Leave a message here" id="floatingMessage" style="height: 150px;"></textarea>
+            <label for="floatingMessage" class="text-white">Message</label>
+          </div>
+          <button type="submit" class="btn w-75 accent-first border-2 brd-color-second text-white text-hovor">SEND</button>
+        </form>
+      </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3 col-xl-3"></div>
+
+    </div>
+
+  </div>
+
+  <hr>
+    <div class="footer my-5">
+
+      <p class="text-white text-center">
+        <span class="v-line">Copyright &copy; 2024</span> Sayfuddin Naeem
+      </p>
+      <p class="text-white text-center">
+        Barishal Sador, Barishal, Bangladesh.
+      </p>
+      <div class="d-flex justify-content-evenly w-25 mb-5 mx-auto">
+        <a href="https://www.facebook.com/sayfuddin.naeem.100" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook text-accent-second fs-4"></i>
+        </a>
+        <a href="https://x.com/sayfuddinNaeem" target="_blank" aria-label="Twitter">
+          <i class="fab fa-x-twitter text-accent-second fs-4"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram text-accent-second fs-4"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sayfuddin-naeem/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin text-accent-second fs-4"></i>
+        </a>
+      </div>
+      
+    </div>
+
+  <script src="bootstrap-5/js/bootstrap.min.js"></script>
+  <script src="fontawesome-6.5.2/js/all.min.js"></script>
+</body>
+</html>
